@@ -2,14 +2,18 @@
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	line-height: 1.5;
+	margin: 0;
 }
 
 h1, h2, h3 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+html, body {
+	height:100%;
+}
+
 body {
-	margin: 0;
 	width: 100%;
 	background-image: url(../images/new_year_background.png);
 }
@@ -31,7 +35,6 @@ body {
 	display: inline-block;
 	height: 100px;
 	color: white;
-	margin: 0;
 	padding: 0px 50px;
 	position: relative;
 	top: 0;
@@ -85,6 +88,7 @@ a {
 
 h1, h2 {
 	color: #4aaaa5;
+	margin-bottom: 20px;
 	border-bottom-style: solid;
 	border-bottom-color: #cccccc;
 	border-bottom-width: 3px;
@@ -127,7 +131,7 @@ h1, h2 {
 	margin: 0px 11px 10px 11px;
 }
 
- img {
+img {
 	float: left;
 	margin: 4px 20px 0px 0px;
 }
@@ -170,7 +174,6 @@ button {
 
 #text1 {
 	display: inline-block;
-	margin: 0;
 	background-color: #4aaaa5;
 	color: white;
 	width: 250px;
@@ -183,7 +186,6 @@ button {
 
 #text2 {
 	display: inline-block;
-	margin: 0;
 	background-color: #4aaaa5;
 	color: white;
 	width: 250px;
@@ -196,7 +198,6 @@ button {
 
 #text3 {
 	display: inline-block;
-	margin: 0;
 	background-color: #4aaaa5;
 	color: white;
 	width: 250px;
@@ -209,7 +210,6 @@ button {
 
 #text4 {
 	display: inline-block;
-	margin: 0;
 	background-color: #4aaaa5;
 	color: white;
 	width: 250px;
@@ -222,7 +222,6 @@ button {
 
 #text5 {
 	display: inline-block;
-	margin: 0;
 	background-color: #4aaaa5;
 	color: white;
 	width: 250px;
@@ -235,7 +234,6 @@ button {
 
 #text6 {
 	display: inline-block;
-	margin: 0;
 	background-color: #4aaaa5;
 	color: white;
 	width: 250px;
